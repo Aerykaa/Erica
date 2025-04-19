@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Comic Sans', sans-serif;
+      background: #f4f7f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #e07fb0, #8f94fb);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #4e54c8;
+      margin-bottom: 20px;
+    }
+
+    .section-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .gallery, .school {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .gallery img, .school img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .school {
+      align-items: center;
+      margin-bottom: 30px;
+      background: #f0f2ff;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .school h3 {
+      width: 100%;
+      color: #333;
+    }
+
+    footer {
+      background: #e07fb0;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+
+    #contact p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Personal Website</h1>
+  </header>
+
+  <section class="section-container" id="about">
+    <h2>About Me</h2>
+    <p>I'm Erlyn Joy Zapra, 20 years old, born on January 4, 2005. I dream of becoming a Certified Public Accountant one day,a goal I’m working hard to achieve. Pink has always been my favorite color; it just makes everything feel a little brighter. Music plays a big part in my life, and I love listening to Taylor Swift, ABBA, and Coldplay. Some of my favorite songs are “Daylight,” “Dancing Queen,” and “The Scientist.” During my free time, you’ll usually find me listening to music, cooking, or catching up on sleep. One series I really enjoyed is When Life Gives You Tangerines it’s not just entertaining, but also packed with real-life lessons that stick with you long after watching. Above all, my favorite Bible verse, Romans 8:28, reminds me that everything happens for a reason: “And we know that in all things God works for the good of those who love him, who have been called according to his purpose.” It's a constant reminder to trust the process and keep the faith.</p>
+    <div class="gallery">
+      <img src="me.jpeg" alt="About Image 1">
+      <img src="TS.jpg" alt="About Image 2">
+      <img src="ABBA.jpeg" alt="About Image 3">
+      <img src="Verse.jpg" alt="About Image 4">
+    </div>
+  </section>
+
+  <section class="section-container" id="education">
+    <h2>Education</h2>
+    <div class="school">
+      <h3>Elementary</h3>
+      <img src="Cag.jpeg" alt="School 1">
+      <p>Cagdara-o Elementary School (Grade 1-4) 2011-2015</p>
+    </div>
+    <div class="school">
+      <h3>Elementary</h3>
+      <img src="Lupok.jpeg" alt="School 2">
+      <p>Lupok Central Elementary School
+        (Grade 5-6) 2015-2017</p>
+    </div>
+    <div class="school">
+      <h3>Junior High-School</h3>
+      <img src="ICS.jpeg" alt="School 3">
+      <p> Immaculate Conception School of Guiuan Inc.
+        2017-2021</p>
+    </div>
+    <div class="school">
+      <h3>Senior High-School</h3>
+      <img src="National.jpeg" alt="School 4">
+      <p>Guiuan National High School
+        2021-2023</p>
+    </div>
+    <div class="school">
+      <h3>Imus Institute of Science and Technology</h3>
+      <img src="Imus.jpg" alt="School 5">
+      <p>Imus Institute of Science and Technology 
+        2023-Present</p>
+    </div>
+  </section>
+
+  <section class="section-container" id="contact">
+    <h2>Contact</h2>
+    <p>Email: erlynjoyzapra@gmail.com</p>
+    <p>Phone: 09638823129</p>
+    <p>Address: Imus Cavite</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 erlynjoy. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
